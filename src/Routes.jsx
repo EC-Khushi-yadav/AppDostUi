@@ -3,7 +3,7 @@ import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
 import ScrollToTop from "components/ScrollToTop";
 import ErrorBoundary from "components/ErrorBoundary";
 import NotFound from "pages/NotFound";
-import ContactPage from './pages/contact';
+import ContactPage from './pages/contact.jsx';
 import ServicesOverview from './pages/services-overview';
 import About from './pages/about';
 import Homepage from './pages/homepage';
@@ -28,3 +28,4 @@ const Routes = () => {
 };
 
 export default Routes;
+
