@@ -4,7 +4,7 @@ import ScrollToTop from "components/ScrollToTop";
 import ErrorBoundary from "components/ErrorBoundary";
 import NotFound from "pages/NotFound";
 import Contact from "./pages/Contact.jsx";
-import ServicesOverview from './pages/services-overview';
+import ServicesOverview from "./pages/services-overview/index.jsx";
 import About from './pages/about';
 import Homepage from './pages/homepage';
 
@@ -28,6 +28,7 @@ const Routes = () => {
 };
 
 export default Routes;
+
 
 
 
