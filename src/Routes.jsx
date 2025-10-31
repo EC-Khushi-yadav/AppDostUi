@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
-import ScrollToTop from "components/ui/ScrollToTop";
-import ErrorBoundary from "components/ui/ErrorBoundary";
-import NotFound from "pages/NotFound";
-import Contact from "pages/Contact";
-import ServicesOverview from "pages/services-overview/index";
-import About from "pages/about/component/index";
-import Homepage from "pages/homepage/index";
+import ScrollToTop from ".components/ui/ScrollToTop.jsx";
+import ErrorBoundary from ".components/ui/ErrorBoundary.jsx";
+import NotFound from ".pages/NotFound.jsx";
+import Contact from ".pages/Contact.jsx";
+import ServicesOverview from ".pages/services-overview/index.jsx";
+import About from ".pages/about/component/index.jsx";
+import Homepage from ".pages/homepage/index.jsx";
 
 const Routes = () => {
   return (
@@ -27,6 +27,7 @@ const Routes = () => {
 };
 
 export default Routes;
+
 
 
 
