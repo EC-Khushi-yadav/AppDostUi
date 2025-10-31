@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
-import ScrollToTop from ".components/ui/ScrollToTop.jsx";
+import ScrollToTop from ".components/ui/ScrollToTop";
 import ErrorBoundary from ".components/ui/ErrorBoundary.jsx";
 import NotFound from ".pages/NotFound.jsx";
 import Contact from ".pages/Contact.jsx";
@@ -27,6 +27,7 @@ const Routes = () => {
 };
 
 export default Routes;
+
 
 
 
