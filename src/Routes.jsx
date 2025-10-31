@@ -5,31 +5,25 @@ import ErrorBoundary from "components/ErrorBoundary";
 import NotFound from "pages/NotFound";
 import Contact from "./pages/Contact.jsx";
 import ServicesOverview from "./pages/services-overview/index.jsx";
-import About from './pages/about';
-import Homepage from './pages/homepage';
+import About from "./pages/about";
+import Homepage from "./pages/homepage";
 
 const Routes = () => {
   return (
     <BrowserRouter>
       <ErrorBoundary>
-      <ScrollToTop />
-      <RouterRoutes>
-        {/* Define your route here */}
-        <Route path="/" element={<Homepage />} />
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/services-overview" element={<ServicesOverview />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/homepage" element={<Homepage />} />
-        <Route path="*" element={<NotFound />} />
-      </RouterRoutes>
+        <ScrollToTop />
+        <RouterRoutes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/services-overview" element={<ServicesOverview />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/homepage" element={<Homepage />} />
+          <Route path="*" element={<NotFound />} />
+        </RouterRoutes>
       </ErrorBoundary>
     </BrowserRouter>
   );
 };
 
 export default Routes;
-
-
-
-
-
