@@ -6,7 +6,7 @@ import NotFound from "pages/NotFound";
 import Contact from "./pages/Contact.jsx";
 import ServicesOverview from "./pages/services-overview/components/index.jsx";
 import About from "./pages/about/components/index.jsx";
-import Homepage from "./pages/homepage";
+import Homepage from "./pages/homepage/components/index.jsx";
 
 const Routes = () => {
   return (
@@ -27,5 +27,6 @@ const Routes = () => {
 };
 
 export default Routes;
+
 
 
