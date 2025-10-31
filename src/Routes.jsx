@@ -5,7 +5,7 @@ import ErrorBoundary from "components/ErrorBoundary";
 import NotFound from "pages/NotFound";
 import Contact from "./pages/Contact.jsx";
 import ServicesOverview from "./pages/services-overview/components/index.jsx";
-import About from "./pages/about";
+import About from "./pages/about/components/index.jsx";
 import Homepage from "./pages/homepage";
 
 const Routes = () => {
@@ -27,4 +27,5 @@ const Routes = () => {
 };
 
 export default Routes;
+
 
